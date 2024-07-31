@@ -1,2 +1,2 @@
 # MorseC
-I made this system with 2 LEDs and 1 mini servo
+I made this system with 2 LEDs, 1 mini servo and a Arduino Uno
