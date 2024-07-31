@@ -49,8 +49,8 @@ void loop() {
 
   //medição
   for (int i = 0; i < mensagem.length(); i++) {
-    char caracter = mensagem[i];
-    int index = strchr(letras, caracter) - letras;
+    char caractere = mensagem[i];
+    int index = strchr(letras, caractere) - letras;
     
     if (index >= 0 && index < sizeof(morseCode) / sizeof(morseCode[0])) {
       String code = morseCode[index];
